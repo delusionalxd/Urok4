@@ -10,7 +10,7 @@ fetch('https://restcountries.com/v3.1/all')
       var element = countries[index];
       const flagsUrl = element.flags?.svg;
       HtmlCountries += `<tr>
-          <td>${+index + 1}</td>
+          <td>${+ index}</td>
           <td>${element.name.common}</td>
           <td>${element.population}</td>
           <td>${element.region}</td>
